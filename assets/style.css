@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+nav{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    border-right: 2px solid rgba(0, 22, 22, 0.4);
+}
+
+ul{
+    padding-left: 22px;
+    list-style: none;
+}
+
+ul h1{
+    margin: 15px 0px 15px 0px;
+}
+
+ul li{
+    width: 180px;
+    margin: 7px 0px 7px 0px;
+    padding: 7px 0px 7px 0px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.light-bold{
+    font-weight: 400;
+}
+
+.main-section{
+    margin-left: 250px;
+}
+
+.center-spacing{
+    margin: 0 5%;
+}
+
+.container{
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1{
+    width: 50%;
+}
+
+.col-2{
+    width: 50%; 
+}
+
+.img-resize{
+    width: 90%;
+}
+
+#guide-intro{
+    background: linear-gradient(to bottom,#fff 0,#f2f2f2 100%);
+}
