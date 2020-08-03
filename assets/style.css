@@ -38,7 +38,7 @@ ul li{
     border-bottom: 1px solid #d6d6d6;
 }
 
-ul li a{
+.nav-links{
     list-style: none;
     text-decoration: none;
     color: #000;
@@ -49,31 +49,95 @@ ul li a{
 }
 
 .main-section{
-    margin-left: 250px;
+    margin: 0 14%;
 }
 
 .center-spacing{
-    margin: 0 5%;
+    margin: 0 14%;
 }
 
 .container{
     padding: 50px 0px 50px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .col-1{
-    width: 50%;
+    width: 55%;
 }
 
 .col-2{
-    width: 50%; 
+    width: 55%; 
 }
 
 .img-resize{
-    width: 90%;
+    width: 245px; 
+    height: 490px;
 }
 
-#guide-intro{
+.heading{
+    font-weight: 400;
+    font-size: 2.2em;
+    opacity: 0.8;
+    margin-bottom: 17px;
+}
+
+.section-heading{
+    font-weight: 400;
+    font-size: 2.5em;
+    opacity: 0.8;
+    margin-bottom: 17px;
+}
+
+.content-spacing{
+    margin-top: 70px;
+}
+
+.p-spacing{
+    margin-top: 35px;
+}
+
+.line-height{
+    line-height: 1.8em;
+}
+
+.content-size{
+    height: 580px;
+}
+
+.flex-end{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.caption-size{
+    font-size: 1.3em;
+}
+
+
+#main-doc{
+    margin-left: 250px;
+}
+
+#welcome{
     background: linear-gradient(to bottom,#fff 0,#f2f2f2 100%);
+    height: 400px;
+}
+
+#welcome h1{
+    margin-top: 25px;
+    margin-bottom: 17px;
+    font-size: 2.8em;
+}
+
+#welcome p{
+   font-size: 1.3em;
+}
+
+#welcome img{
+    width: 80%;
 }
