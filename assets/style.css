@@ -79,6 +79,31 @@ hr{
     height: 490px;
 }
 
+.accessories-img{
+    width: 150px;
+    height: 210px;
+}
+
+.accessories-img-2{
+    width: 130px;
+    height: 100px;
+}
+
+.accessories-img-3{
+    width: 125px;
+    height: 40px;
+}
+
+.accessories-img-4{
+    width: 250px;
+    height: 250px;
+}
+
+.accessories-img-5{
+    width: 160px;
+    height: 70px;
+}
+
 .img-spacing{
     margin: 30px 0px 30px 0px;
 }
